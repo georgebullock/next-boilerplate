@@ -6,6 +6,7 @@
     "plugin:sonarjs/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:@next/next/recommended",
     "plugin:prettier/recommended",
     "prettier"
   ],

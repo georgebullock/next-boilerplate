@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import Theme from "../styles/Theming";
+import Theme from "../app/styles/Theming";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
