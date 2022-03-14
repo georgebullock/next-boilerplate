@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Wrapper = styled.main(
-  ({ theme }) => css`
+  () => css`
     box-sizing: border-box;
     display: block;
     flex: 1;
