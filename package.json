@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8000",
+    "dev": "next dev -p 7777",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -26,6 +26,7 @@
     "@types/styled-components": "^5.1.24",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "babel-jest": "^27.5.1",
+    "babel-plugin-styled-components": "^2.0.6",
     "eslint": "^8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",
