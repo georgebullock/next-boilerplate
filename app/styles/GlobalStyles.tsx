@@ -1,17 +1,24 @@
 import { createGlobalStyle, css } from "styled-components";
+// eslint-disable-next-line import/no-unresolved
+import { ThemeType } from "../types/styled";
 
-const GlobalStyles = createGlobalStyle(
+const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>(
   ({ theme }) => css`
-    body {
+    * {
       margin: 0;
-      background: ${theme.colors.grey[0]};
+      padding: 0;
+      box-sizing: border-box;
+      outline: 0;
     }
 
-    #__next {
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
-      box-sizing: border-box;
+    html {
+      font-size: 62.5%;
+    }
+
+    body {
+      text-rendering: geometricPrecision;
+      font-size: 1rem;
+      color: ${theme.colors.grey[100]};
     }
   `,
 );
