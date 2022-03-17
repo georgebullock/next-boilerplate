@@ -1,6 +1,6 @@
 import { createGlobalStyle, css } from "styled-components";
 // eslint-disable-next-line import/no-unresolved
-import { ThemeType } from "../types/styled";
+import { ThemeType } from "./types/styled";
 
 const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>(
   ({ theme }) => css`
