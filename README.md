@@ -7,7 +7,7 @@ A configured Next.js TypeScript project. I use it for prototyping, learning, and
 - Module Linting via ESLint
 - CSS Linting via ESLint
 - Unit Testing via Jest and React Testing Library
-- Precommialidation via Husky and Lint Staged
+- Precommit Validation via Husky and Lint Staged
 
 1. Install Packages
 
